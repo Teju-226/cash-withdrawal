@@ -1,0 +1,87 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  height: 100vh;
+  background-color: white;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+.profile-name {
+  color: #c7d2fe;
+  font-size: 23px;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.your-bal-text {
+  font-size: 22px;
+  color: #585076;
+}
+.in-rupees-text {
+  font-size: 17px;
+  color: #585076;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.count {
+  color: white;
+  font-size: 25px;
+}
+.amount-container {
+  margin-left: 150px;
+}
+.withdraw-text {
+  color: white;
+  font-size: 25px;
+}
+.choose-sum-text {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 18px;
+}
+.denominations-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .card-container {
+    width: 80%;
+  }
+} */

@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.button {
+  width: 180px;
+  height: 30px;
+  /* padding: 5px; */
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: #585076;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'roboto';
+  border-radius: 10px;
+}
+.buttons-container {
+  padding: 10px;
+  margin-top: 10px;
+}
